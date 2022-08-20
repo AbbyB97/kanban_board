@@ -1,0 +1,26 @@
+.app {
+  background: #f4f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+}
+
+.add_section {
+  cursor: pointer;
+  margin: 1.12em;
+  font-style: italic;
+  text-decoration: underline;
+  height: 20px;
+}
+.columns_container {
+  display: flex;
+  flex-direction: row;
+  /* height: 100%; */
+  flex-grow: 1;
+}
+
+.heading {
+  position: fixed;
+  margin-bottom: 1.12em;
+}
